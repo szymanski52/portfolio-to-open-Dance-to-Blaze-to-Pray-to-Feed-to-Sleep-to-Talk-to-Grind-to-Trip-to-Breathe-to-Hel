@@ -4,7 +4,7 @@
   .container {
     width: auto;
     max-width: 100%;
-    padding: 0; }
+    padding: 10pt; }
   .cover, .cover-bg {
     border-radius: 0; }
   .cover.shadow-lg {

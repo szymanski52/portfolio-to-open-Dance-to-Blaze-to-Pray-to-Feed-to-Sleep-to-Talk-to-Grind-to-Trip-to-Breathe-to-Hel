@@ -7,7 +7,7 @@
 
 .timeline-card {
   position: relative;
-  margin-left: 31px;
+  margin-left: 17px;
   border-left: 2px solid;
   margin-bottom: 2rem; }
 
@@ -39,22 +39,36 @@
   z-index: 1; }
 
 .timeline-card-primary {
-  border-left-color: #4A89DC; }
+    border-left: 3pt solid yellow;
+    border-image: linear-gradient(180deg, #f0f, #2fa);
+    border-image-slice: 1;
+    border-right: #222;
+    border-bottom: 1pt #222;
+    border-top: 1pt #222;; 
+}
 
 .timeline-card-primary:before {
-  border-color: #4A89DC; }
+  border: 2pt solid #e3e; }
 
 .timeline-card-primary:after {
-  background-color: #4A89DC; }
+  background-color: #e3e;
+  height: 2pt; }
 
 .timeline-card-success {
-  border-left-color: #37BC9B; }
+    border-left: 3pt solid yellow;
+    border-image: linear-gradient(180deg, #ff0, #2fa);
+    border-image-slice: 1;
+    border-right: #222;
+    border-bottom: 1pt #222;
+    border-top: 1pt #222;; 
+}
 
 .timeline-card-success:before {
-  border-color: #37BC9B; }
+    border: 2pt solid #df0; }
 
 .timeline-card-success:after {
-  background-color: #37BC9B; }
+  background-color: #df0;
+  height: 2pt; }
 
 html {
   scroll-behavior: smooth; }
@@ -78,7 +92,12 @@ html {
   margin-left: 1rem; }
 
 .cover {
-  border-radius: 10px; }
+  margin: 10pt;
+  border-radius: 0px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0pt 5pt 5pt 0pt;
+}
 
 .cover-bg {
   background-color: #4A89DC;
@@ -86,16 +105,17 @@ html {
   border-radius: 10px 10px 0 0; }
 
 .avatar {
-  max-width: 216px;
+  max-width: 200px;
   max-height: 216px;
   margin-top: 20px;
   text-align: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .avatar img {
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%); }
+  filter: grayscale(0%); }
 
 footer a:not(.nav-link) {
   color: inherit;
@@ -118,7 +138,7 @@ footer a:not(.nav-link) {
   .container {
     width: auto;
     max-width: 100%;
-    padding: 0; }
+    padding: 10pt; }
   .cover, .cover-bg {
     border-radius: 0; }
   .cover.shadow-lg {

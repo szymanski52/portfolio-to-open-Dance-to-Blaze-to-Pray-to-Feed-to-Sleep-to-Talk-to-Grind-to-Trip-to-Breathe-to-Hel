@@ -488,23 +488,28 @@ progress {
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  padding: 10pt;}
 
 @media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px; } }
+    max-width: 540px;
+  padding: 10pt;} }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 720px; } }
+    max-width: 720px; padding: 10pt;} }
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 960px; } }
+    max-width: 960px;
+  padding: 10pt;} }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1060px; } }
+    max-width: 1060px;
+  padding: 10pt;
+  } }
 
 .row {
   --bs-gutter-x: 1.5rem;
