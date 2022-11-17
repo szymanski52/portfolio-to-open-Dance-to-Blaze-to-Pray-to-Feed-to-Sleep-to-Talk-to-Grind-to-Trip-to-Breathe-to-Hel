@@ -1,0 +1,279 @@
+html, body {
+    height: 100%;
+}
+
+.topnav {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    width: 5%;
+}
+
+.resume-item {
+    min-width: 200pt;
+    min-height: 200pt;
+    position: relative;
+    margin: 0px;
+    display-inside: ruby-base;
+    vertical-align: center;
+    margin: 25pt;
+}
+
+.resume-item div {
+    display: flex;
+    padding: 10pt;
+    vertical-align: center;
+}
+
+.page-content {
+    text-align: center;
+}
+
+.container {
+    padding: 10pt;
+    padding-top: 50pt;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+    min-width: 1000pt;
+    margin: 0 auto;
+}
+
+.resume-body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+.resume-item-shadow {
+    top: 7pt;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    min-height: 200pt;
+    position: relative;
+    left: 7pt;
+}
+
+.col-md-5 {
+    font-size: 15pt;
+    width: 100%;
+}
+
+.timeline {
+    flex-direction: column;
+}
+
+.skills-section {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: column;
+}
+
+.col-md-6 {
+    flex-direction: column;
+}
+
+.item-header {
+    background-color: #ff7745;
+    width: 100%;
+    height: 50pt;
+    border-bottom: black solid 1pt;
+}
+
+.res-column {
+    flex-direction: column;
+}
+
+.gen-table {
+    text-align: center;
+}
+
+.info-table {
+    width: 100%;
+}
+
+.info-table td {
+    height: 35pt;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.projects-description li {
+    text-align: left;
+}
+
+.card-body {
+    width: 100%;
+}
+
+#about-div {
+    height: 300pt;
+    width: 100%;
+}
+
+#about-me {
+    font-size: 15pt;
+    vertical-align: center;
+}
+
+#about-div-body {
+    flex-direction: column;
+}
+
+#gen-info {
+    width: 45%;
+    height: 220pt;
+}
+
+#links {
+    width: 45%;
+    height: 120pt;
+}
+
+#skills {
+    width: 44%;
+    margin-right: 0pt;
+    margin-left: 32pt;
+    height: 350pt;
+}
+
+#skills-table {
+    width: 100%;
+}
+
+.skills-col-1 {
+    width: 20%;
+}
+
+#work-experience {
+    width: 100%;
+    height: 550pt;
+}
+
+#education {
+    width: 100%;
+    height: 390pt;
+}
+
+#gallery-button {
+    border-radius: 100pt;
+    border: none;
+}
+
+#gallery-link {
+    padding-bottom: 30pt;
+}
+
+.gal-content {
+    height: 500pt;
+    max-width: 100%;
+    background-color: white;
+    margin: 2pt;
+}
+
+.progress {
+    background-image: linear-gradient(90deg, #eee, #2fa);
+}
+
+.timeline {
+    border-left: 2px solid #E6E9ED;
+    padding: 1rem 0;
+}
+
+.timeline-card {
+    position: relative;
+    margin-left: 17px;
+    border-left: 2px solid;
+    margin-bottom: 2rem;
+}
+
+.timeline-card:last-child {
+    margin-bottom: 1rem;
+}
+
+.timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+    top: 20px;
+    left: -41px;
+    border: 2px solid;
+    z-index: 2;
+}
+
+.timeline-card:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: currentColor;
+    width: 29px;
+    height: 2px;
+    top: 25px;
+    left: -29px;
+    z-index: 1;
+}
+
+.timeline-card-primary {
+    border-left: 3pt solid yellow;
+    border-image: linear-gradient(180deg, #f0f, #2fa);
+    border-image-slice: 1;
+    border-right: #222;
+    border-bottom: 1pt #222;
+    border-top: 1pt #222;;
+}
+
+.timeline-card-primary:before {
+    border: 2pt solid #e3e;
+}
+
+.timeline-card-primary:after {
+    background-color: #e3e;
+    height: 2pt;
+}
+
+.timeline-card-success {
+    border-left: 3pt solid yellow;
+    border-image: linear-gradient(180deg, #ff0, #2fa);
+    border-image-slice: 1;
+    border-right: #222;
+    border-bottom: 1pt #222;
+    border-top: 1pt #222;;
+}
+
+.timeline-card-success:before {
+    border: 2pt solid #df0;
+}
+
+.timeline-card-success:after {
+    background-color: #df0;
+    height: 2pt;
+}
